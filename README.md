@@ -1,7 +1,7 @@
 # HR Analytics Dashboard: Employee Retention & Compensation 
 
 ## Latar Belakang
-*Project* ini mensimulasikan peran **People Analyst** dalam menganalisis data terkait Human Resources. 
+*Project* ini menganalisis data terkait Human Resources. 
 Tujuan utama: 
 - Identifikasi resignasi (*attrition*),
 - Analisis struktur gaji,
@@ -66,7 +66,7 @@ order by d.department, rata_rata_gaji desc;
 
 
 --------
-Dibuat oleh saya, **Alfonsus Ganendra W. G. K.** sebagai bagian dari portfolio untuk *role* People Analyst. 
+Dibuat oleh saya, **Alfonsus Ganendra W. G. K.** sebagai bagian dari portfolio untuk *role* Data Analyst dan sejenisnya.  
 
 [LinkedIn: https://linkedin.com/in/alfonsusganendra/]
 
