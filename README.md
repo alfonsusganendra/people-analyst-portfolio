@@ -22,7 +22,8 @@ Catatan: Tabel 'departments_info' adalah tabel yang dibuat untuk keperluan 'JOIN
 3. **SQL Querying:** menjalankan 3 *query* utama untuk menghitung *attrition rate* (per departemen), rata-rata gaji (per departemen dan per *role*) dan identifikasi *flight risk*. 
 4. **Visualisasi:** mengekspor hasil *query* ke Microsoft Excel dan membangun *dashboard* interaktif dengan *slicer* per departemen.
 
-## Definisi "*flight risk*" dalam *project* ini adalah karyawan yang **masih aktif** (Attrition = 'No"), namun memenuhi kriteria berikut:
+## Definisi "*flight risk*" dalam *project* ini
+Adalah karyawan yang **masih aktif** (Attrition = 'No"), namun memenuhi kriteria berikut:
 - 'PerformanceRating = 4' (performa tertinggi) **dan**
 - 'JobSatisfaction <= 2' (kepuasan kerja rendah).
 Total: **67 karyawan** beresiko tinggi untuk *resign*. 
@@ -64,7 +65,8 @@ ORDER BY d.department, rata_rata_gaji desc;
 - **Definisi bisnis vs. hasil *query*:** Di awal, *flight risk* didefinisikan dengan 'PerformanceRating >= 3' (kurang lebih 300 karyawan, terlalu luas). Saya kemudian memperbaikinya dengan merubah definisi *flight risk* menjadi 'PerformanceRating = 4' agar fokus pada *top performer* dan sejalan dengan konteks bisnis. Pelajarannya: filter harus konsisten antara SQL yang dibuat dengan konteks bisnis.
 
 ## Tampilan Dashboard
-<img width="1131" height="677" alt="dashboard_preview" src="https://github.com/user-attachments/assets/bf3b16fb-ba4c-4a29-866a-85d3e6e1f138" />
+<img width="1537" height="725" alt="dashboard_preview" src="https://github.com/user-attachments/assets/24208107-1caa-4855-bf85-551412e609f5" />
+
 
 ## Struktur File Repository
 - 'README.md': Dokumentasi lengkap *project* ini. 
